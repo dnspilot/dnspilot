@@ -11,7 +11,6 @@ import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import AuthFormError from "@/components/auth/AuthFormError";
 
-
 export default function SignUpPage() {
   const [state, formAction] = useFormState(signUpAction, {
     error: "",
